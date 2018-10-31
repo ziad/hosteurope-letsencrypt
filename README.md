@@ -117,6 +117,14 @@ _/etc/letsencrypt_ ab. Die Zertifikatsdateien enthalten eine Nummer in ihrem Dat
 die bei jeder Verlängerung um 1 hochgezählt wird. Das neueste Zertifikat ist immer jenes, mit
 der höchsten Nummer im Dateinamen.
 
+### Add new Domain to the certificate (add_domain.py) 
+1. get the certificate name that you want to modify using <span style="background:#cecece">sudo certbot certificates</span>
+2. add the certificate name to einstellungen.json
+3. run the script:
+
+```
+sudo python3 add_domain.py
+```
 
 ### Zertifikat manuell im KIS einbinden
 
