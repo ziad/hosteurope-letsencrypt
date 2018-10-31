@@ -1,10 +1,11 @@
+# Add new domain to a certificate.
+# File is a modifed copy of verlaengern.py created by Ziad Hakim 
+
 import json
 import os
 
 from shared import domain_list, config_file
-
-# Add new domain to a certificate.
-# File is a modifed copy of verlaengern.py created by Ziad Hakim  
+ 
 with open(config_file('einstellungen.json')) as cfg_file:
     config = json.load(cfg_file)
 staging = config['staging']
