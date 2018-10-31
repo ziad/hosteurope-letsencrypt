@@ -118,7 +118,7 @@ die bei jeder Verlängerung um 1 hochgezählt wird. Das neueste Zertifikat ist i
 der höchsten Nummer im Dateinamen.
 
 ### Add new Domain to the certificate (add_domain.py) 
-1. get the certificate name that you want to modify using <span style="background:#cecece">sudo certbot certificates</span>
+1. get the certificate name that you want to modify using [sudo certbot certificates](https://certbot.eff.org/docs/using.html#managing-certificates)
 2. add the certificate name to einstellungen.json
 3. run the script:
 
